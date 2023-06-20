@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+<?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $name = $_POST["name"];
         echo "<h1>Hello, $name!</h1>";
 }  else { echo "<h1> NoName! </h1>"; }
-
+?>
 <h2>Post Vars</h2>
  <?php
 	
