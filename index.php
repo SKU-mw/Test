@@ -26,6 +26,12 @@ echo "<pre>";
 	echo "</pre>";
 ?>  
 <h5>Heading 5</h5>
+ <form method="post" action="welcome.php">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <input type="submit" value="Submit">
+    </form>
+	
 <h6>Heading 6</h6>
 
 </body>
