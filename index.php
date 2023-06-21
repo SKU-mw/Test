@@ -6,7 +6,7 @@
 
 <h1>Hello World!</h1>
 
-<form method="post" action="welcome.php">
+<form method="post" action="./welcome.php">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
         <input type="submit" value="Submit">
